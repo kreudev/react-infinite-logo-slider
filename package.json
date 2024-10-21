@@ -1,6 +1,6 @@
 {
   "name": "react-infinite-logo-slider",
-  "version": "1.0.13",
+  "version": "1.1.0",
   "description": "A slider of logos or react components that scroll horizontally infinitely",
   "main": "build/index.js",
   "types": "build/index.d.ts",
