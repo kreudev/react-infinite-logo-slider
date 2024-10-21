@@ -6,7 +6,7 @@ interface SliderProps {
     toRight?: boolean;
     pauseOnHover?: boolean;
     blurBorders?: boolean;
-    blurBoderColor?: string;
+    blurBorderColor?: string;
 }
 interface SlideProps {
     children: React.ReactNode;

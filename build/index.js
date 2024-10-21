@@ -22,7 +22,7 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 import React, { useEffect, useState } from "react";
 var Slider = function (_a) {
-    var children = _a.children, _b = _a.width, width = _b === void 0 ? "200px" : _b, _c = _a.duration, duration = _c === void 0 ? 40 : _c, _d = _a.toRight, toRight = _d === void 0 ? false : _d, _e = _a.pauseOnHover, pauseOnHover = _e === void 0 ? false : _e, _f = _a.blurBorders, blurBorders = _f === void 0 ? false : _f, _g = _a.blurBoderColor, blurBoderColor = _g === void 0 ? "#fff" : _g;
+    var children = _a.children, _b = _a.width, width = _b === void 0 ? "200px" : _b, _c = _a.duration, duration = _c === void 0 ? 40 : _c, _d = _a.toRight, toRight = _d === void 0 ? false : _d, _e = _a.pauseOnHover, pauseOnHover = _e === void 0 ? false : _e, _f = _a.blurBorders, blurBorders = _f === void 0 ? false : _f, _g = _a.blurBorderColor, blurBorderColor = _g === void 0 ? "#fff" : _g;
     var _h = useState(""), idNanoid = _h[0], setIdNanoid = _h[1];
     // Generate a random string ID for keyframes
     var generarCadenaAleatoria = function () {
@@ -87,7 +87,7 @@ var Slider = function (_a) {
                     transform: "rotate(180deg)",
                     zIndex: 10,
                     height: "105%",
-                    background: "linear-gradient(90deg, ".concat(blurBoderColor, " 10%, rgba(255, 255, 255, 0) 80%)"),
+                    background: "linear-gradient(90deg, ".concat(blurBorderColor, " 10%, rgba(255, 255, 255, 0) 80%)"),
                 } }),
             React.createElement("div", { style: {
                     position: "absolute",
@@ -96,7 +96,7 @@ var Slider = function (_a) {
                     width: "180px",
                     zIndex: 10,
                     height: "120%",
-                    background: "linear-gradient(90deg, ".concat(blurBoderColor, " 10%, rgba(255, 255, 255, 0) 80%)"),
+                    background: "linear-gradient(90deg, ".concat(blurBorderColor, " 10%, rgba(255, 255, 255, 0) 80%)"),
                 } })))));
 };
 // Slide component definition with TypeScript
