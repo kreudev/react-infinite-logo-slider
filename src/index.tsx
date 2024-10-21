@@ -7,7 +7,7 @@ interface SliderProps {
   toRight?: boolean; // Optional boolean to control direction of the animation
   pauseOnHover?: boolean; // Optional boolean to pause animation on hover
   blurBorders?: boolean; // Optional boolean to add blur effects on the borders
-  blurBoderColor?: string; // Optional color for blur border effect
+  blurBorderColor?: string; // Optional color for blur border effect
 }
 
 interface SlideProps {
@@ -22,7 +22,7 @@ const Slider: React.FC<SliderProps> & { Slide: React.FC<SlideProps> } = ({
   toRight = false,
   pauseOnHover = false,
   blurBorders = false,
-  blurBoderColor = "#fff",
+  blurBorderColor = "#fff",
 }) => {
   const [idNanoid, setIdNanoid] = useState<string>("");
 
@@ -134,7 +134,7 @@ const Slider: React.FC<SliderProps> & { Slide: React.FC<SlideProps> } = ({
               transform: "rotate(180deg)",
               zIndex: 10,
               height: "105%",
-              background: `linear-gradient(90deg, ${blurBoderColor} 10%, rgba(255, 255, 255, 0) 80%)`,
+              background: `linear-gradient(90deg, ${blurBorderColor} 10%, rgba(255, 255, 255, 0) 80%)`,
             }}
           />
           <div
@@ -145,7 +145,7 @@ const Slider: React.FC<SliderProps> & { Slide: React.FC<SlideProps> } = ({
               width: "180px",
               zIndex: 10,
               height: "120%",
-              background: `linear-gradient(90deg, ${blurBoderColor} 10%, rgba(255, 255, 255, 0) 80%)`,
+              background: `linear-gradient(90deg, ${blurBorderColor} 10%, rgba(255, 255, 255, 0) 80%)`,
             }}
           />
         </>

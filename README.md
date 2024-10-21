@@ -24,7 +24,7 @@ const Component = () => {
             duration={40}
             pauseOnHover={true}
             blurBorders={false}
-            blurBoderColor={'#fff'}
+            blurBorderColor={'#fff'}
         >
             <Slider.Slide>
                 <img src="/slider/any.png" alt="any" className='w-36' />
@@ -57,7 +57,7 @@ export default Component
     toRight={false}
     pauseOnHover={false}
     blurBorders={false}
-    blurBoderColor={'#fff'}
+    blurBorderColor={'#fff'}
   >
     ...
   </Slider>
@@ -70,7 +70,7 @@ export default Component
 | `toRight`      | `boolean` |  `false` | It moves in the right direction |
 | `pauseOnHover`      | `boolean` |  `false` | The animation pauses on hover |
 | `blurBorders`      | `boolean` |  `false` | A blur effect will appear at the ends of the slider |
-| `blurBoderColor`      | `string` |  `#fff` | Color of blur |
+| `blurBorderColor`      | `string` |  `#fff` | Color of blur |
 
 
 ## Slide props
