@@ -1,6 +1,6 @@
 {
   "name": "react-infinite-logo-slider",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "A slider of logos or react components that scroll horizontally infinitely",
   "main": "./build/index.js",
   "scripts": {
@@ -38,5 +38,13 @@
     "path": "^0.12.7",
     "prop-types": "^15.8.1",
     "react": "^18.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kreudev/react-infinite-logo-slider"
+  },
+  "bugs": {
+    "url": "https://github.com/kreudev/react-infinite-logo-slider/issues"
+  },
+  "homepage": "https://github.com/kreudev/react-infinite-logo-slider#readme"
 }
